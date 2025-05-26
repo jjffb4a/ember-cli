@@ -1,0 +1,3 @@
+remove lines 134+135
+    const command = `cd ${projectName}`;
+    this.ui.writeLine(`  ${chalk.gray('$')} ${chalk.cyan(command)}`);
